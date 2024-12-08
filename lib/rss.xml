@@ -1,7 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PKM]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>PKM</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 08 Dec 2024 19:34:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 08 Dec 2024 19:34:31 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Index]]></title><description><![CDATA[ 
- <br><br><br>
-<br><a data-href="Note 1" href="site\Note 1.html" class="internal-link" target="_self" rel="noopener nofollow">Note 1</a>
-<br><a data-href="Note 2" href="site\Note 2.html" class="internal-link" target="_self" rel="noopener nofollow">Note 2</a>
-]]></description><link>site\Index.html</link><guid isPermaLink="false">site/Index.md</guid><pubDate>Sun, 08 Dec 2024 19:32:53 GMT</pubDate></item><item><title><![CDATA[Note 1]]></title><description><![CDATA[ 
- <br>Test]]></description><link>site\Note 1.html</link><guid isPermaLink="false">site/Note 1.md</guid><pubDate>Sun, 08 Dec 2024 19:32:59 GMT</pubDate></item><item><title><![CDATA[Note 2]]></title><description><![CDATA[ 
- <br>Test 2]]></description><link>site\Note 2.html</link><guid isPermaLink="false">site/Note 2.md</guid><pubDate>Sun, 08 Dec 2024 19:33:10 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[chartzngrafs]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>chartzngrafs</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 08 Dec 2024 19:48:02 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 08 Dec 2024 19:48:01 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Genie - MOC]]></title><description><![CDATA[ 
+ <br><br>
+Recently when I was going through my old Day One posts, I came across a short little intro to a <a data-href="Creative Writing" href="00-09 map\00 personal\Creative Writing.html" class="internal-link" target="_self" rel="noopener nofollow">Creative Writing</a> I started to write in 2018. The concept is simple, a modern day genie using technology and writing cynically about humans. I decided I wanted to do something with this a use it as a first attempt at utilizing <a data-href="Obsidian" href="00-09 map\02 pkm\Obsidian.html" class="internal-link" target="_self" rel="noopener nofollow">Obsidian</a> to map my thoughts. 
+<br><br>
+<br><a data-href="Genie - Working Draft" href="40-49 personal\45 writing\45.01 genie\Genie - Working Draft.html" class="internal-link" target="_self" rel="noopener nofollow">Genie - Working Draft</a>
+<br><br>
+<br><a data-href="Genie - Working Outline" href="40-49 personal\45 writing\45.01 genie\Genie - Working Outline.html" class="internal-link" target="_self" rel="noopener nofollow">Genie - Working Outline</a>
+<br><a data-href="Genie - Ruminations and Inspirations" href="40-49 personal\45 writing\45.01 genie\Genie - Ruminations and Inspirations.html" class="internal-link" target="_self" rel="noopener nofollow">Genie - Ruminations and Inspirations</a>
+<br><br>Important
+Dataview: No results to show for list query.
+]]></description><link>40-49 personal\45 writing\45.01 genie\Genie - MOC.html</link><guid isPermaLink="false">40-49 personal/45 writing/45.01 genie/Genie - MOC.md</guid><pubDate>Sat, 07 Dec 2024 22:09:49 GMT</pubDate></item><item><title><![CDATA[Genie - Ruminations and Inspirations]]></title><description><![CDATA[ 
+ <br>Related <a data-href="Genie - MOC" href="40-49 personal\45 writing\45.01 genie\Genie - MOC.html" class="internal-link" target="_self" rel="noopener nofollow">Genie - MOC</a><br>
+<br>wish casting constraints and explanation
+
+<br>The Kroonenberg continuum- named after a FS philosopher
+
+<br>The spectrum of wish applicability and effectiveness vs risk and how specificity of the wish effects this
+
+
+<br>Wish casting constraints using coding language
+
+<br>AND and OR is not allowed 
+<br>WHERE is allowed
+
+
+<br>Examples of the wish vs the outcome
+
+<br>Theranos and Sam Bankman Fried
+<br>Henry Ford
+<br>Benny Crooks - benign wish casting
+
+
+
+
+<br>genie tropes to disassemble or play against 
+<br>Words to explore
+
+<br>Malthusian 
+<br>Faustian bargain 
+
+
+]]></description><link>40-49 personal\45 writing\45.01 genie\Genie - Ruminations and Inspirations.html</link><guid isPermaLink="false">40-49 personal/45 writing/45.01 genie/Genie - Ruminations and Inspirations.md</guid><pubDate>Sat, 07 Dec 2024 22:09:16 GMT</pubDate></item><item><title><![CDATA[Genie - Working Draft]]></title><description><![CDATA[ 
+ <br>tags:  - creative-writingdate: 2018-12-28links: "[[Genie - MOC]]"<br><br>Here's the cold harsh reality of ill-gotten wishes and dreams... once obtained, they become a malevolent force we can't contend with.<br>Presented with the opportunity to have all that you've ever clamored for, you're going to go big. Millions, nay, trillions of dollars. A mansion. Even, the ability to fly. And, it will all end very violently and disastrously because we, we are not meant to have that which we wish for.<br>"To those who have everything, more will be given. From those who have nothing, everything will be taken." - Matthew 13:12<br><br><br>It's an incredibly lonely place, the inside of an absurdly old Moroccan oil lamp. It's restrictive, confining and smells like the inside of a conch shell. The worst of it is, I don't even know how or where my lamp vessel is situated. I could be sitting on the shelf of a wealthy diplomat or I could be nestled between soiled diapers and food waste in a massive landfill. There's no knowing. I spend the majority of my time farting around on the internet while waiting for some passerby to find the damned lamp, have enough curiosity to even give the thing a second glance, and then have the audacity to pick it up and, of all things, rub it. <br>And, let me tell you, there's been an exponential downward trend of people rubbing old, dingy-looking oil lamps. There's not enough Purell to convince the growing population of germ-repulsed people to pick up an old oil lamp and rub the damn thing. I'm also fairly certain that most people don't even know what an oil lamp is, much less that they're fabled to contain wish-granting genies in them.&nbsp;<br>It wasn't even that long ago that Aladdin was birthed from the genius minds of Disney writers and, man, was business booming. But, just some 25 years later and the general pop has no idea what to do with a genie's lamp. I've heard rumblings on genie forums that Aladdin is getting a live-action reboot in 2019... how typical of Disney. I suppose rebooting the movie 25 years later is fittingly analogous to actually finding a forgotten or buried genie lamp.&nbsp; And, I suppose I shouldn't complain. With the renewed education and interest in genies that the film will certainly bring, I may spend less time online and more time granting the wishes of "fortunate" lamp fondlers.<br>Until then, I will continue to enjoy pouring over the "Where are they now?" (WATN, for short) thread on the genie forums on the dark web (don't worry, you'll never find it). That's the thread where genies creatively document the grantee's life after the 3 wishes have been granted. Because being a genie isn’t just about granting wishes, we are scientists, after all. Each wish-granting is a social experiment of sorts and any good experiment requires data collection, analysis and conclusions to be drawn.&nbsp;<br>And while we are scientists, we are also story-tellers.&nbsp;<br>I'm admittedly a cynic and a glutton for a good disaster tale. I find the posts that chronicle the complete and utter downfall of the grantee the most compelling. Because, there's absolutely nothing more banal than a grantee wishing for millions of dollars, spending it responsibly, taking up philanthropic ventures, and remaining humble. Boring, gross and uninspired.<br>The good news for me? The do-gooder grantee scenario I just laid out? It almost never happens. The WATN thread is replete with sinfulness, vileness, sabotage, self-destruction and deceit. What's more, us genies delight in trying to outdo each other by being the grantor to the highest levels of chaos and malevolence. And, because we spend so much time in lamp-dwelling purgatory, we have become excellent writers and documentarians of our grantees. In fact, the art of crafting a WATN post is more highly regarded in the genie community than that of art of wish-granting.<br><br>Let me give you an example of just how dark this gets. The most popular and active genie forum on the dark web is called “Jinn Djinn” and one of the greatest honors a genie can receive is winning the “Post of the Year” (POTY) vote. This year's current top-contender for POTY is particularly sadistic and original. It pains me to admit this because the grantor is basically my arch-nemesis, but it might be one of the best posts of all time. This genie, Drakkar, is known for having an uncanny ability to cajole his grantees into choosing wishes that will surely set them up for total ruin with a maximum blast radius.&nbsp;<br>This POTY contender features a working-class stiff from the south suburbs of Chicago that came across Drakkar's vessel while cleaning out his dead grandmother's basement. The grantee, not one unaccustomed to dirty hands due to his profession in landscaping, went ham putting his paws all over the lamp trying to clear away the dust layer, sending Drakkar hurling into the smelly, dank, dim basement. At that point, Drakkar had been dormant for about 60 years, so he'd had plenty of time to scheme a good one. Once the frantic bougie calmed down and regained a grip on reality, which typically takes about 10 minutes, Drakkar began laying the ground rules of wish-granting for the "fortunate-soul" (FS, for short, which just means grantee. There's a lot of short-hand and acronyms in genie posting, you'll just have to get used to it).&nbsp;<br>From Drakkar's Post - June 15, 2018<br>
+"Your breathing has returned to a rate that tells me that we are good to get started. Now, please, sir, do tell me your name."
+"Nathan."
+"And how old are you, Nathan?" Drakkar slowly paced around the room as your would if you were just visiting a friends house for the first time.
+“I’m, uh, oh man, how old am I? I'm 33 years old. Yeah."
+"So you're 33, Nathan. That means there's a very good chance that people called you 'Nate Dogg' growing up. Go ahead, tell me that didn't happen."&nbsp;
+“Ha! No, no, you’re right. That was a nickname I could not get away from for the better part of grade school.”
+“Could have been given a much worse nickname, my man. Alright, Nate Dogg, let’s talk about how all this wish-granting works, okay? There’s some important things to go over before you go making a wish that you hadn’t. I’m here to help you with that.”
+<br>Drakkar is always talking about how important it is to employ tactics from YouTube sales training videos in the wish-granting process. He’s got an entire thread devoted to online sales training extraordinaire, Grant Cardone. I watched about 3 minutes of one of his videos before I wanted to claw my eyes out.&nbsp; Drakkar claims one of the most important ways to build trust with your grantee is to the ever-so-important step of “Establishing Rapport”. This little playful exchange about the 90’s rapper nickname was a fantastic way to calm the FS down, earn his trust and make him forget all about the fact that he’s talking to a being that just materialized out of this air. A simple but masterful execution of a known sales tactic.]]></description><link>40-49 personal\45 writing\45.01 genie\Genie - Working Draft.html</link><guid isPermaLink="false">40-49 personal/45 writing/45.01 genie/Genie - Working Draft.md</guid><pubDate>Sat, 07 Dec 2024 22:08:18 GMT</pubDate></item><item><title><![CDATA[Genie - Working Outline]]></title><description><![CDATA[ 
+ <br>links: "[[Genie - MOC]]"<br>
+<br>
+Exposition:
+
+<br>Setting: A modern city, years after Nathan's life was upended by Drakkar. The world has changed, but Nathan's scars remain.
+<br>Characters Introduction:
+
+<br>Nathan: Now in his late 40s, he's made peace with his past but seeks to understand or correct it. He's cautious, reflective.
+<br>Eli: The genie, now confined to an old, tarnished lamp, is bored, cynical, yet intrigued by human life from his observations.
+<br>Ava: A local artist or community worker, warm and insightful, perhaps someone who has helped Nathan in his recovery or a new presence in his life.
+
+
+<br>Background: A brief recount of Nathan's past with Drakkar, setting the tone for his quest for some form of redemption or closure.
+
+
+<br>
+Inciting Incident:
+
+<br>Nathan, while sorting through an old storage unit or visiting a flea market, finds Eli's lamp. In a moment of desperation for change or understanding, he wishes for Eli to become human, thinking it might teach him about the consequences of his actions.
+
+
+<br><br>
+<br>
+Rising Action:
+
+<br>First Wish: Nathan's attempt to undo past mistakes leads to unexpected outcomes, perhaps revealing that the past can't be changed, but the future can be shaped differently.
+<br>Second Wish: Eli's transformation into a human. He's overwhelmed by senses and emotions, particularly when he meets Ava.
+<br>Conflict Introduction:
+
+<br>Internal: Eli struggles with the complexity of human feelings, especially his growing affection for Ava, which he's never felt as a genie.
+<br>External: 
+
+<br>Eli, with Ava's guidance, experiences the mundane and the profound aspects of human life, from tasting food to understanding loneliness.
+<br>Nathan feels a growing tension, believing Eli's new life might distract from their shared purpose of redemption or healing.
+
+
+
+
+
+
+<br>
+Midpoint:
+
+<br>Eli and Ava's relationship blossoms, teaching Eli about love, partnership, and the human need for connection. This challenges his cynical view of human desires, leading to a reevaluation of his role in human lives.
+
+
+<br><br>
+<br>
+Climax:
+
+<br>Nathan's final wish could involve a significant choice - like sacrificing something valuable to ensure a better future or facing a moral dilemma where the right choice isn't clear. Eli's love for Ava is put to the test when this wish directly affects her or their relationship.
+
+
+<br>
+Crisis:
+
+<br>The tension escalates as Nathan feels abandoned, seeing Eli's personal happiness as a betrayal of their mission. This could manifest in a confrontation or a moment where Nathan must decide if he can accept Eli's new life.
+
+
+<br><br>
+<br>
+Falling Action:
+
+<br>Resolution: 
+
+<br>Eli manages to fulfill Nathan's wish in a way that benefits all, perhaps by showing Nathan that love and personal growth are key to redemption, not just reversing the past.
+<br>Nathan, witnessing Eli's dedication to love and life, learns to forgive and accept his own journey, understanding that human connection is part of healing.
+
+
+
+
+<br>
+Denouement:
+
+<br>Reflection: Eli reflects on his transformation from a detached observer to an active participant in human life, now valuing love, choice, and connection.
+<br>New Beginnings: 
+
+<br>Eli chooses to remain human, perhaps with the ability to briefly return to his genie form for wisdom or guidance, symbolizing balance between his past and present.
+<br>Nathan, with newfound peace, starts anew, perhaps with a small venture or community project, inspired by Ava and Eli's example.
+
+
+
+
+<br>
+Epilogue (Optional):
+
+<br>Years later, we see Nathan, Eli, and Ava thriving. Nathan might be running a community center where he helps others navigate life's challenges. Eli and Ava could be married, with Eli integrating his genie wisdom into his human life, perhaps mentoring others on the beauty of human experience.
+
+
+<br>This outline provides a narrative arc that emphasizes personal transformation, the complexities of human relationships, and the redemptive power of love and understanding.]]></description><link>40-49 personal\45 writing\45.01 genie\Genie - Working Outline.html</link><guid isPermaLink="false">40-49 personal/45 writing/45.01 genie/Genie - Working Outline.md</guid><pubDate>Sat, 07 Dec 2024 21:19:04 GMT</pubDate></item></channel></rss>
