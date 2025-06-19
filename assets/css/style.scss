@@ -1,0 +1,192 @@
+@import "minima";
+
+// Synthwave/Cyberpunk Color Palette
+$neon-pink: #ff00ff;
+$neon-cyan: #00ffff;
+$electric-blue: #0080ff;
+$deep-purple: #4b0082;
+$dark-bg: #0a0a0a;
+$darker-bg: #050505;
+$neon-green: #00ff00;
+$hot-pink: #ff1493;
+
+// Override minima theme with synthwave aesthetics
+body {
+  background: linear-gradient(135deg, $darker-bg 0%, $deep-purple 100%);
+  color: $neon-cyan;
+  font-family: 'Courier New', monospace;
+  min-height: 100vh;
+}
+
+// Header styling
+.site-header {
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom: 2px solid $neon-pink;
+  backdrop-filter: blur(10px);
+  
+  .site-title {
+    color: $neon-pink !important;
+    text-shadow: 0 0 10px $neon-pink;
+    font-weight: bold;
+    
+    &:hover {
+      text-shadow: 0 0 20px $neon-pink;
+    }
+  }
+  
+  .site-nav {
+    .page-link {
+      color: $neon-cyan !important;
+      text-shadow: 0 0 5px $neon-cyan;
+      
+      &:hover {
+        color: $neon-pink !important;
+        text-shadow: 0 0 10px $neon-pink;
+      }
+    }
+  }
+}
+
+// Main content styling
+.page-content {
+  background: rgba(0, 0, 0, 0.5);
+  min-height: calc(100vh - 200px);
+  
+  .wrapper {
+    background: rgba(75, 0, 130, 0.1);
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+  }
+}
+
+// Post styling
+.post {
+  h1, h2, h3, h4, h5, h6 {
+    color: $neon-pink;
+    text-shadow: 0 0 10px $neon-pink;
+  }
+  
+  .post-title {
+    color: $neon-pink;
+    text-shadow: 0 0 15px $neon-pink;
+  }
+  
+  .post-meta {
+    color: $electric-blue;
+    text-shadow: 0 0 5px $electric-blue;
+  }
+  
+  p {
+    color: $neon-cyan;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: $hot-pink;
+    text-shadow: 0 0 5px $hot-pink;
+    
+    &:hover {
+      color: $neon-green;
+      text-shadow: 0 0 10px $neon-green;
+    }
+  }
+  
+  code {
+    background: rgba(0, 0, 0, 0.8);
+    color: $neon-green;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    text-shadow: 0 0 5px $neon-green;
+  }
+  
+  pre {
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid $neon-cyan;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+  
+  blockquote {
+    border-left: 4px solid $neon-pink;
+    background: rgba(255, 0, 255, 0.1);
+    font-style: italic;
+    color: $neon-cyan;
+  }
+}
+
+// Footer styling
+.site-footer {
+  background: rgba(0, 0, 0, 0.9);
+  border-top: 2px solid $neon-cyan;
+  color: $neon-cyan;
+  text-shadow: 0 0 5px $neon-cyan;
+}
+
+// Home page post list styling
+.post-list {
+  .post-link {
+    color: $neon-pink;
+    text-shadow: 0 0 8px $neon-pink;
+    
+    &:hover {
+      color: $neon-cyan;
+      text-shadow: 0 0 12px $neon-cyan;
+    }
+  }
+  
+  .post-meta {
+    color: $electric-blue;
+    text-shadow: 0 0 5px $electric-blue;
+  }
+}
+
+// Add some cyberpunk grid effects
+.wrapper::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+// Glow effects for headings
+h1, h2, h3, h4, h5, h6 {
+  color: $neon-pink;
+  text-shadow: 0 0 10px $neon-pink;
+}
+
+// Button styling
+.btn, button, input[type="submit"] {
+  background: transparent;
+  border: 2px solid $neon-cyan;
+  color: $neon-cyan;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 20px $neon-cyan;
+    text-shadow: 0 0 10px $neon-cyan;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .wrapper::before {
+    background-size: 25px 25px;
+  }
+  
+  .page-content .wrapper {
+    padding: 1rem;
+  }
+} 

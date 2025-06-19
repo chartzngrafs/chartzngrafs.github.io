@@ -29,10 +29,9 @@ twitter_username: chartzngrafs
 github_username: chartzngrafs
 
 # Build settings
-remote_theme: ziinahzoor/cybersynth-theme
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
