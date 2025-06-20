@@ -1,150 +1,218 @@
 ---
 ---
 
-@import "minima";
+/* Base reset and typography */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-// Synthwave/Cyberpunk Color Palette
-$neon-pink: #ff00ff;
-$neon-cyan: #00ffff;
-$electric-blue: #0080ff;
-$deep-purple: #4b0082;
-$dark-bg: #0a0a0a;
-$darker-bg: #050505;
-$neon-green: #00ff00;
-$hot-pink: #ff1493;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-// Override minima theme with synthwave aesthetics
+/* Synthwave/Cyberpunk Color Palette */
+:root {
+  --neon-pink: #ff00ff;
+  --neon-cyan: #00ffff;
+  --electric-blue: #0080ff;
+  --deep-purple: #4b0082;
+  --dark-bg: #0a0a0a;
+  --darker-bg: #050505;
+  --neon-green: #00ff00;
+  --hot-pink: #ff1493;
+}
+
+/* Base body styling */
 body {
-  background: linear-gradient(135deg, $darker-bg 0%, $deep-purple 100%);
-  color: $neon-cyan;
-  font-family: 'Courier New', monospace;
+  background: linear-gradient(135deg, var(--darker-bg) 0%, var(--deep-purple) 100%);
+  color: var(--neon-cyan);
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
   min-height: 100vh;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
-// Header styling
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--neon-pink);
+  text-shadow: 0 0 10px var(--neon-pink);
+  margin: 1rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: var(--hot-pink);
+  text-shadow: 0 0 5px var(--hot-pink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--neon-green);
+  text-shadow: 0 0 10px var(--neon-green);
+}
+
+/* Site header */
 .site-header {
-  background: rgba(0, 0, 0, 0.8);
-  border-bottom: 2px solid $neon-pink;
-  backdrop-filter: blur(10px);
-  
-  .site-title {
-    color: $neon-pink !important;
-    text-shadow: 0 0 10px $neon-pink;
-    font-weight: bold;
-    
-    &:hover {
-      text-shadow: 0 0 20px $neon-pink;
-    }
-  }
-  
-  .site-nav {
-    .page-link {
-      color: $neon-cyan !important;
-      text-shadow: 0 0 5px $neon-cyan;
-      
-      &:hover {
-        color: $neon-pink !important;
-        text-shadow: 0 0 10px $neon-pink;
-      }
-    }
-  }
+  background: rgba(0, 0, 0, 0.9);
+  border-bottom: 2px solid var(--neon-pink);
+  padding: 1rem 0;
+  position: relative;
 }
 
-// Main content styling
+.site-title {
+  color: var(--neon-pink) !important;
+  text-shadow: 0 0 15px var(--neon-pink);
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.site-title:hover {
+  text-shadow: 0 0 25px var(--neon-pink);
+}
+
+/* Navigation */
+.site-nav {
+  float: right;
+  margin-top: 0.5rem;
+}
+
+.page-link {
+  color: var(--neon-cyan) !important;
+  text-shadow: 0 0 5px var(--neon-cyan);
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  color: var(--neon-pink) !important;
+  text-shadow: 0 0 10px var(--neon-pink);
+}
+
+/* Main wrapper */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+}
+
+/* Page content */
 .page-content {
-  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem 0;
   min-height: calc(100vh - 200px);
-  
-  .wrapper {
-    background: rgba(75, 0, 130, 0.1);
-    border: 1px solid rgba(0, 255, 255, 0.3);
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
-  }
 }
 
-// Post styling
-.post {
-  h1, h2, h3, h4, h5, h6 {
-    color: $neon-pink;
-    text-shadow: 0 0 10px $neon-pink;
-  }
-  
-  .post-title {
-    color: $neon-pink;
-    text-shadow: 0 0 15px $neon-pink;
-  }
-  
-  .post-meta {
-    color: $electric-blue;
-    text-shadow: 0 0 5px $electric-blue;
-  }
-  
-  p {
-    color: $neon-cyan;
-    line-height: 1.6;
-  }
-  
-  a {
-    color: $hot-pink;
-    text-shadow: 0 0 5px $hot-pink;
-    
-    &:hover {
-      color: $neon-green;
-      text-shadow: 0 0 10px $neon-green;
-    }
-  }
-  
-  code {
-    background: rgba(0, 0, 0, 0.8);
-    color: $neon-green;
-    border: 1px solid rgba(0, 255, 0, 0.3);
-    text-shadow: 0 0 5px $neon-green;
-  }
-  
-  pre {
-    background: rgba(0, 0, 0, 0.9);
-    border: 1px solid $neon-cyan;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
-  }
-  
-  blockquote {
-    border-left: 4px solid $neon-pink;
-    background: rgba(255, 0, 255, 0.1);
-    font-style: italic;
-    color: $neon-cyan;
-  }
+.page-content .wrapper {
+  background: rgba(75, 0, 130, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
+  backdrop-filter: blur(5px);
 }
 
-// Footer styling
+/* Post styling */
+.post-title {
+  color: var(--neon-pink);
+  text-shadow: 0 0 15px var(--neon-pink);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  color: var(--electric-blue);
+  text-shadow: 0 0 5px var(--electric-blue);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.post-content {
+  color: var(--neon-cyan);
+}
+
+/* Post list on home page */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.post-link {
+  color: var(--neon-pink) !important;
+  text-shadow: 0 0 8px var(--neon-pink);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  color: var(--neon-cyan) !important;
+  text-shadow: 0 0 12px var(--neon-cyan);
+}
+
+/* Code styling */
+code {
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--neon-green);
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  text-shadow: 0 0 5px var(--neon-green);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+pre {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid var(--neon-cyan);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  text-shadow: 0 0 5px var(--neon-green);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--neon-pink);
+  background: rgba(255, 0, 255, 0.1);
+  font-style: italic;
+  color: var(--neon-cyan);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Footer */
 .site-footer {
   background: rgba(0, 0, 0, 0.9);
-  border-top: 2px solid $neon-cyan;
-  color: $neon-cyan;
-  text-shadow: 0 0 5px $neon-cyan;
+  border-top: 2px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  text-shadow: 0 0 5px var(--neon-cyan);
+  padding: 2rem 0;
+  margin-top: 2rem;
 }
 
-// Home page post list styling
-.post-list {
-  .post-link {
-    color: $neon-pink;
-    text-shadow: 0 0 8px $neon-pink;
-    
-    &:hover {
-      color: $neon-cyan;
-      text-shadow: 0 0 12px $neon-cyan;
-    }
-  }
-  
-  .post-meta {
-    color: $electric-blue;
-    text-shadow: 0 0 5px $electric-blue;
-  }
-}
-
-// Add some cyberpunk grid effects
-.wrapper::before {
+/* Cyberpunk grid overlay */
+body::before {
   content: '';
   position: fixed;
   top: 0;
@@ -152,44 +220,72 @@ body {
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+    linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
   z-index: -1;
 }
 
-// Glow effects for headings
-h1, h2, h3, h4, h5, h6 {
-  color: $neon-pink;
-  text-shadow: 0 0 10px $neon-pink;
-}
-
-// Button styling
+/* Button styling */
 .btn, button, input[type="submit"] {
   background: transparent;
-  border: 2px solid $neon-cyan;
-  color: $neon-cyan;
+  border: 2px solid var(--neon-cyan);
+  color: var(--neon-cyan);
   padding: 10px 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
-  
-  &:hover {
-    background: rgba(0, 255, 255, 0.1);
-    box-shadow: 0 0 20px $neon-cyan;
-    text-shadow: 0 0 10px $neon-cyan;
-  }
+  font-family: 'Courier New', monospace;
+  border-radius: 5px;
 }
 
-// Responsive adjustments
+.btn:hover, button:hover, input[type="submit"]:hover {
+  background: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 20px var(--neon-cyan);
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* Responsive design */
 @media (max-width: 768px) {
-  .wrapper::before {
+  body::before {
     background-size: 25px 25px;
+  }
+  
+  .wrapper {
+    padding: 0 1rem;
   }
   
   .page-content .wrapper {
     padding: 1rem;
   }
+  
+  .site-nav {
+    float: none;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .page-link {
+    margin: 0 1rem 0 0;
+  }
+  
+  .post-title {
+    font-size: 2rem;
+  }
+}
+
+/* Additional hover effects */
+.post-list li:hover {
+  border-color: rgba(255, 0, 255, 0.5);
+  background: rgba(255, 0, 255, 0.05);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Ensure text is readable */
+.page-content {
+  position: relative;
+  z-index: 1;
 } 
