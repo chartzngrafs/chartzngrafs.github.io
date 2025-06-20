@@ -29,7 +29,7 @@ twitter_username: chartzngrafs
 github_username: chartzngrafs
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 

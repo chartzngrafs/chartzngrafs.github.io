@@ -3,6 +3,9 @@ source "https://rubygems.org"
 # Use GitHub Pages gem for GitHub Pages compatibility
 gem "github-pages", group: :jekyll_plugins
 
+# Theme
+gem "minima", "~> 2.5"
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
