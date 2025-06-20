@@ -29,9 +29,18 @@ twitter_username: chartzngrafs
 github_username: chartzngrafs
 
 # Build settings
-theme: minima
+remote_theme: tajacks/lightspeed
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+# Pagination settings for Lightspeed theme
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
 
 # Exclude from processing.
 # The following items will not be processed, by default.

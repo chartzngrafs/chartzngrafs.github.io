@@ -3,8 +3,10 @@ source "https://rubygems.org"
 # Use GitHub Pages gem for GitHub Pages compatibility
 gem "github-pages", group: :jekyll_plugins
 
-# Theme
-gem "minima", "~> 2.5"
+# Lightspeed theme requirements
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-paginate-v2"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

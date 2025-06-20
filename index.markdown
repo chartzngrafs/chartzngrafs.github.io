@@ -1,8 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Home
 ---
 
 # Welcome to ChartzNGrafs Blog
@@ -11,6 +9,9 @@ Sharing insights, charts, and more! A cyberpunk-inspired blog featuring data vis
 
 ## Latest Posts
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% for post in site.posts limit:5 %}
+- **[{{ post.title }}]({{ post.url }})** - {{ post.date | date: "%B %d, %Y" }}
+  
+  {{ post.excerpt | strip_html | truncatewords: 20 }}
+
 {% endfor %}
