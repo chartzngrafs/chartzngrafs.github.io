@@ -18,46 +18,130 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ChartzNGrafs Blog
-email: kevin@chartzngrafs.net
-description: >- # this means to ignore newlines until "baseurl:"
-  Sharing insights, charts, and more! A cyberpunk-inspired blog featuring 
-  data visualizations, analytics, and digital creativity in a synthwave aesthetic.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chartzngrafs.github.io" # the base hostname & protocol for your site
-twitter_username: kevinkethcart
+title:       ChartzNGrafs Blog
+email:       kevin@chartzngrafs.net
+author:      Kevin Kethcart
+description: "Sharing insights, charts, and more! A cyberpunk-inspired blog featuring data visualizations, analytics, and digital creativity in a synthwave aesthetic."
+baseurl:     ""
+url:         "https://chartzngrafs.github.io"
+date_format: "%b %-d, %Y"
+header_pages:
+ - about.md
+
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    true
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
+# Preview image for social media aka og:image and twitter:image
+post_preview_image: false
+
+# Facebook Page integration
+# (for instant articles and other stuff)
+fb_page: false
+fb_page_id:
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
 github_username: chartzngrafs
+reddit_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username: kevinkethcart
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+telegram_username:
+vk_id:
+
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
 
 # Build settings
-remote_theme: tajacks/lightspeed
+markdown:     kramdown
+permalink:    pretty
+paginate:     4
+sass:
+  style: compressed
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate-v2
-
-# Pagination settings for Lightspeed theme
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num/'
-  title: ':title - page :num of :max'
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - Rakefile
+  - README.md
+  - screenshot.png
+  - vendor

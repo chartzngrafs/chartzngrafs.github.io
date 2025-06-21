@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
+tags: about
 ---
 
 # About ChartzNGrafs
@@ -40,15 +41,15 @@ Our visualizations don't just show data; they transport you to a world where inf
 Ready to jack into the matrix of data visualization? Want to collaborate on turning your datasets into neon-soaked visual masterpieces? 
 
 **Establish connection through standard channels:**
-- Email: contact@chartzngrafs.com
+- Email: kevin@chartzngrafs.net
 - GitHub: [@chartzngrafs](https://github.com/chartzngrafs)
-- Twitter: [@chartzngrafs](https://twitter.com/chartzngrafs)
+- Twitter: [@kevinkethcart](https://twitter.com/kevinkethcart)
 
 ## System Specifications
 
 This site runs on:
 - **Platform**: Jekyll static site generator
-- **Theme**: Custom Cybersynth with synthwave modifications
+- **Theme**: Synthwave Pixyll
 - **Hosting**: GitHub Pages
 - **Status**: Fully operational
 
