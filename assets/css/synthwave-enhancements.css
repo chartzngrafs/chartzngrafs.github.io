@@ -36,6 +36,58 @@
   margin-top: 1rem;
 }
 
+/* Ensure headers in post summaries are always smaller than post titles */
+.post-summary h1,
+.post-summary h2,
+.post-summary h3,
+.post-summary h4,
+.post-summary h5,
+.post-summary h6 {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #ccc !important;
+  margin: 0.5rem 0 !important;
+  text-shadow: none !important;
+  border: none !important;
+}
+
+/* Ensure strong/bold text in summaries doesn't overpower the title */
+.post-summary strong,
+.post-summary b {
+  font-weight: 500 !important;
+  color: #ddd !important;
+}
+
+/* Normalize other elements in post summaries */
+.post-summary code {
+  font-size: 0.875rem !important;
+  background: rgba(255, 0, 255, 0.05) !important;
+  color: #ddd !important;
+  padding: 0.1rem 0.3rem !important;
+}
+
+.post-summary em,
+.post-summary i {
+  color: #ccc !important;
+  font-style: italic;
+}
+
+.post-summary a {
+  color: #00FFFF !important;
+  font-size: inherit !important;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+.post-summary ul,
+.post-summary ol,
+.post-summary li,
+.post-summary p {
+  font-size: 1rem !important;
+  color: #ccc !important;
+  margin: 0.25rem 0 !important;
+}
+
 /* Better spacing for content */
 .post-content p {
   margin-bottom: 1.5rem;
