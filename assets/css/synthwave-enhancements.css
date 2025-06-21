@@ -1,0 +1,124 @@
+/* Synthwave Enhancements for ChartzNGrafs */
+
+/* Better post spacing and readability */
+.post {
+  margin-bottom: 3rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255, 0, 255, 0.2);
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+/* Enhanced post titles on index */
+.post-title {
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+/* Better post meta styling */
+.post-meta {
+  font-size: 0.875rem;
+  color: #00FFFF;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Enhanced post summaries */
+.post-summary {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-top: 1rem;
+}
+
+/* Better spacing for content */
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+.post-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: #FF00FF;
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #00FFFF;
+}
+
+/* Code block improvements */
+.post-content pre {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+  font-size: 0.875rem;
+}
+
+.post-content code {
+  background: rgba(255, 0, 255, 0.1);
+  color: #FF00FF;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.875rem;
+}
+
+/* Links styling */
+.post-content a {
+  color: #00FFFF;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.post-content a:hover {
+  color: #FF00FF;
+  border-bottom-color: rgba(255, 0, 255, 0.5);
+  text-shadow: 0 0 5px rgba(255, 0, 255, 0.5);
+}
+
+/* List improvements */
+.post-content ul, .post-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Blockquote styling */
+.post-content blockquote {
+  border-left: 3px solid #FF00FF;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  background: rgba(255, 0, 255, 0.05);
+  font-style: italic;
+  color: #ddd;
+}
+
+/* Better responsive behavior */
+@media (max-width: 768px) {
+  .post-title {
+    font-size: 1.25rem !important;
+  }
+  
+  .post {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .post-content pre {
+    font-size: 0.8rem;
+    padding: 0.75rem;
+  }
+} 

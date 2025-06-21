@@ -5,8 +5,6 @@ date:   2025-06-18 20:30:00 +0000
 categories: data-visualization cyberpunk charts
 ---
 
-# Neon Data Streams: Visualizing the Digital Flow
-
 **⚡ ACCESSING MAINFRAME... ⚡**
 
 In the pulsing heart of our digital metropolis, data flows like electric rivers through fiber optic veins. Today, we're diving deep into the art of visualizing these data streams with the aesthetic flair of the cyberpunk era.

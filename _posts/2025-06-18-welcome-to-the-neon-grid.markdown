@@ -5,8 +5,6 @@ date:   2025-06-18 21:47:00 +0000
 categories: synthwave cyberpunk welcome
 ---
 
-# Welcome to the ChartzNGrafs Cyberpunk Blog
-
 **⚡ INITIATING NEURAL LINK... ⚡**
 
 Welcome to the neon-lit corner of the digital realm where data visualization meets cyberpunk aesthetics. This is ChartzNGrafs, your gateway to exploring charts, graphs, and analytics through a synthwave lens.
