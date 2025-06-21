@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:       ChartzNGrafs Blog
+title:       ChartzNGrafs
 email:       kevin@chartzngrafs.net
 author:      Kevin Kethcart
-description: "Sharing insights, charts, and more! A cyberpunk-inspired blog featuring data visualizations, analytics, and digital creativity in a synthwave aesthetic."
+description: "A journey in ai-assited noob coding."
 baseurl:     ""
 url:         "https://chartzngrafs.github.io"
 date_format: "%b %-d, %Y"
