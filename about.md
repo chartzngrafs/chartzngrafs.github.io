@@ -5,56 +5,40 @@ permalink: /about/
 tags: about
 ---
 
-# About ChartzNGrafs
+**🚀 SYSTEM STATUS: LEARNING MODE ACTIVATED 🚀**
 
-**⚡ INITIALIZING BIO SCAN... ⚡**
+Hey there! I'm Kevin, and welcome to my corner of the digital frontier where I document my journey from data analyst to aspiring developer.
 
-## Mission Statement
+## **🔧 Current Mission**
+- **New to coding** but diving deep with AI-powered tools like **Cursor AI**
+- Building practical projects and apps while learning core development techniques I never picked up in school
+- Leveraging my professional background in **data & analytics** as a foundation for development work
 
-Welcome to the intersection of data science and cyberpunk aesthetics. ChartzNGrafs is your gateway to the neon-lit world of data visualization, where every chart pulses with electric energy and every graph tells a story worthy of the digital frontier.
+## **💼 Day Job Reality**
+- **Power BI developer** by trade - turning raw data into actionable insights
+- Trying to bridge the gap between business intelligence and full-stack development
+- Always looking for ways to make data tell better stories
 
-## What We Do
+## **🏠 Home Lab Adventures**
+- **Raspberry Pi enthusiast** - hosting music servers, Flask apps, and databases
+- Building and breaking things in my homelab setup
+- Learning through hands-on experimentation (and plenty of Stack Overflow)
 
-🌆 **Data Visualization Art** - We transform raw data into stunning visual narratives that wouldn't look out of place on the screens of a high-tech corporate tower or underground hacker den.
+## **⚙️ Tech Stack & Preferences**
+- **Manjaro Linux** - because life's too short for Windows updates
+- **Lenovo T480** - my trusty development companion (seriously underrated machine!)
+- Python, SQL, and whatever else I need to make things work
 
-📊 **Cyberpunk Analytics** - Our approach to data analysis channels the aesthetic and philosophy of classic cyberpunk - seeing patterns in the digital chaos, finding signal in the noise.
-
-🎨 **Digital Design** - Every visualization is crafted with the neon glow, retro-futuristic grids, and synthwave colors that define the cyberpunk visual language.
-
-💻 **Tech Exploration** - We dive deep into the tools and technologies that power our data-driven future, from cutting-edge visualization libraries to AI-powered analytics.
-
-## The Vision
-
-In a world increasingly dominated by data streams and digital interfaces, we believe that information should be more than just functional - it should be beautiful, inspiring, and evocative of the digital frontier we're all navigating together.
-
-Our visualizations don't just show data; they transport you to a world where information flows like liquid light through fiber optic veins, where every dataset is a digital landscape waiting to be explored.
-
-## The Grid Coordinates
-
-- **Location**: The Digital Frontier
-- **Status**: Always Online
-- **Mission**: Visualize the Future
-- **Aesthetic**: Pure Synthwave
-
-## Contact Protocol
-
-Ready to jack into the matrix of data visualization? Want to collaborate on turning your datasets into neon-soaked visual masterpieces? 
-
-**Establish connection through standard channels:**
-- Email: kevin@chartzngrafs.net
-- GitHub: [@chartzngrafs](https://github.com/chartzngrafs)
-- Twitter: [@kevinkethcart](https://twitter.com/kevinkethcart)
-
-## System Specifications
-
-This site runs on:
-- **Platform**: Jekyll static site generator
-- **Theme**: Synthwave Pixyll
-- **Hosting**: GitHub Pages
-- **Status**: Fully operational
+## **🎵 Beyond the Code**
+- Occasional posts about **music** and other random interests
+- Documenting the wins, fails, and "wait, how did that work?" moments
+- Sharing the journey from business analyst to full-stack developer
 
 ---
 
-*"In the future, all data will be beautiful. We're just making sure the future arrives a little sooner."*
+*"Learning to code with AI tools while trying not to break production... wish me luck!"*
 
-**END TRANSMISSION**
+**📡 CONNECT WITH ME:**
+- **Email**: kevin@chartzngrafs.net  
+- **GitHub**: [@chartzngrafs](https://github.com/chartzngrafs)  
+- **Twitter**: [@kevinkethcart](https://twitter.com/kevinkethcart)
