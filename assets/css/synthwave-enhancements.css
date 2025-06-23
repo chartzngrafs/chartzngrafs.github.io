@@ -14,11 +14,11 @@
   box-shadow: 0 8px 32px rgba(255, 0, 255, 0.1);
   z-index: 1000;
   transition: all 0.3s ease;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .post-nav-sidebar.collapsed {
-  width: 60px;
+  width: 80px;
 }
 
 .post-nav-sidebar.mobile-hidden {
@@ -171,7 +171,7 @@
 .post-nav-toggle {
   position: absolute;
   top: 0.75rem;
-  right: -10px;
+  right: -25px;
   background: transparent;
   border: none;
   color: #FF00FF;
@@ -183,6 +183,7 @@
   font-size: 1.25rem;
   font-weight: bold;
   padding: 0.25rem;
+  z-index: 1001;
 }
 
 .post-nav-toggle:hover {
@@ -225,14 +226,14 @@ body {
 /* Enhanced main content area */
 main {
   min-height: calc(100vh - 200px);
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 /* Posts header styling */
 .posts-header {
   text-align: center;
-  margin-bottom: 3rem;
-  padding: 2rem 0;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
   border-bottom: 1px solid rgba(255, 0, 255, 0.2);
 }
 
@@ -439,17 +440,12 @@ main {
   color: #00FFFF;
   text-decoration: none;
   font-weight: 500;
-  padding: 0.5rem 1rem;
-  border: 1px solid rgba(0, 255, 255, 0.3);
-  border-radius: 4px;
   transition: all 0.3s ease;
-  background: transparent;
 }
 
 .read-more:hover {
-  border-color: rgba(0, 255, 255, 0.6);
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
-  transform: translateY(-2px);
+  transform: translateX(5px);
 }
 
 .read-more .arrow {
