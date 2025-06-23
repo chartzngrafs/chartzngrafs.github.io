@@ -51,16 +51,8 @@ function togglePostNav() {
   }
 }
 
-// Auto-hide on mobile
-function checkMobileNavVisibility() {
-  const sidebar = document.getElementById('postNavSidebar');
-  if (window.innerWidth <= 768) {
-    sidebar.classList.add('mobile-hidden');
-  } else {
-    sidebar.classList.remove('mobile-hidden');
-  }
-}
-
-window.addEventListener('resize', checkMobileNavVisibility);
-document.addEventListener('DOMContentLoaded', checkMobileNavVisibility);
+// Initialize sidebar state
+document.addEventListener('DOMContentLoaded', function() {
+  // Any additional initialization can go here
+});
 </script> 
