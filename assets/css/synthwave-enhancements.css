@@ -171,26 +171,23 @@
 .post-nav-toggle {
   position: absolute;
   top: 0.75rem;
-  right: -15px;
-  width: 30px;
-  height: 30px;
-  background: rgba(255, 0, 255, 0.3);
-  border: 1px solid rgba(255, 0, 255, 0.6);
-  border-radius: 50%;
+  right: -10px;
+  background: transparent;
+  border: none;
   color: #FF00FF;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: bold;
+  padding: 0.25rem;
 }
 
 .post-nav-toggle:hover {
-  background: rgba(255, 0, 255, 0.3);
   text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .toggle-icon {
@@ -240,7 +237,7 @@ main {
 }
 
 .page-title {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: #f92aad;
   text-shadow: 0 0 2px #100c0f, 0 0 15px #dc078e, 0 0 30px #fff3;
   margin-bottom: 1rem;
@@ -294,7 +291,7 @@ main {
 }
 
 .post-page-title {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: #f92aad;
   text-shadow: 0 0 2px #100c0f, 0 0 15px #dc078e, 0 0 30px #fff3;
   margin-bottom: 1rem;
@@ -364,7 +361,7 @@ main {
 
 /* Enhanced post titles on index */
 .post-title {
-  font-size: 1.5rem !important;
+  font-size: 1.375rem !important;
   font-weight: 500;
   margin-bottom: 0.5rem;
   line-height: 1.3;
@@ -422,7 +419,7 @@ main {
 
 /* Enhanced post summaries */
 .post-summary {
-  font-size: 0.925rem;
+  font-size: 0.875rem;
   line-height: 1.6;
   color: #ccc;
   margin: 1.5rem 0;
@@ -442,13 +439,17 @@ main {
   color: #00FFFF;
   text-decoration: none;
   font-weight: 500;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 4px;
   transition: all 0.3s ease;
+  background: transparent;
 }
 
 .read-more:hover {
+  border-color: rgba(0, 255, 255, 0.6);
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
-  transform: translateX(5px);
+  transform: translateY(-2px);
 }
 
 .read-more .arrow {
