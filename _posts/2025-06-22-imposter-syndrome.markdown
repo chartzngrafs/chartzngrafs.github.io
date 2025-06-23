@@ -13,6 +13,8 @@ This feeling—that I haven't earned the right to be proud of my work—is a spe
 
 I had the idea, I prompted the AI, I stitched the pieces together, and I debugged the inevitable (and numerous) errors. But line-for-line, character-for-character? I can't claim authorship. And in the world of software development, that feels like a cardinal sin.
 
+![image](/images/pyper.png)
+
 ### The Two Cultures: Code as Craft vs. Code as a Tool
 
 My struggle comes from a deep-seated reverence for those who "code" in the traditional sense. These are the people who have a profound, intimate knowledge of a programming language. They can debate the merits of different UI frameworks, write elegant, idiomatic Python, and solve complex algorithms from memory. Their identity is often intertwined with their chosen language. This is the culture of **Code as Craft**.
@@ -36,6 +38,8 @@ The AI didn't:
 -   **Integrate and debug the whole system.** The AI generated code in pieces. My job was to make them all work together and solve the inevitable errors that arose from that complex integration.
 
 My contribution wasn't typing; it was understanding, planning, and problem-solving.
+
+![image](/images/pyper-radio.png)
 
 ### Where Do I Go From Here?
 
