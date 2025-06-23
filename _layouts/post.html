@@ -54,7 +54,7 @@ layout: default
     {% if site.show_related_posts %}
       <div class="py2">
         <h3 class="h1">You might also enjoy</h3>
-        {% for post in site.related_posts | limit:3 %}
+        {% for post in site.related_posts limit:3 %}
           <div class="mb1">
             <a class="link-primary" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             <small class="link-secondary">{{ post.date | date: site.date_format }}</small>

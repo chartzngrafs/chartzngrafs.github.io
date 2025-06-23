@@ -1,0 +1,66 @@
+<nav class="post-nav-sidebar" id="postNavSidebar">
+  <div class="post-nav-content">
+    <h3 class="post-nav-title">Posts</h3>
+    <div class="post-nav-list">
+      {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in sorted_posts limit: 10 %}
+        <a href="{{ post.url | relative_url }}" class="post-nav-item {% if page.url == post.url %}active{% endif %}">
+          <span class="post-nav-date">{{ post.date | date: "%b %d" }}</span>
+          <span class="post-nav-title-text">{{ post.title | truncate: 50 }}</span>
+        </a>
+      {% endfor %}
+    </div>
+    
+    <!-- Previous/Next Navigation -->
+    {% if page.layout == 'post' %}
+      <div class="post-nav-actions">
+        {% if page.previous.url %}
+          <a href="{{ page.previous.url | relative_url }}" class="nav-action prev" title="{{ page.previous.title }}">
+            <span class="nav-arrow">←</span>
+            <span class="nav-label">Previous</span>
+          </a>
+        {% endif %}
+        
+        {% if page.next.url %}
+          <a href="{{ page.next.url | relative_url }}" class="nav-action next" title="{{ page.next.title }}">
+            <span class="nav-label">Next</span>
+            <span class="nav-arrow">→</span>
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+    
+    <!-- Toggle Button -->
+    <button class="post-nav-toggle" onclick="togglePostNav()">
+      <span class="toggle-icon">‹</span>
+    </button>
+  </div>
+</nav>
+
+<script>
+function togglePostNav() {
+  const sidebar = document.getElementById('postNavSidebar');
+  const toggle = sidebar.querySelector('.toggle-icon');
+  
+  sidebar.classList.toggle('collapsed');
+  
+  if (sidebar.classList.contains('collapsed')) {
+    toggle.textContent = '›';
+  } else {
+    toggle.textContent = '‹';
+  }
+}
+
+// Auto-hide on mobile
+function checkMobileNavVisibility() {
+  const sidebar = document.getElementById('postNavSidebar');
+  if (window.innerWidth <= 768) {
+    sidebar.classList.add('mobile-hidden');
+  } else {
+    sidebar.classList.remove('mobile-hidden');
+  }
+}
+
+window.addEventListener('resize', checkMobileNavVisibility);
+document.addEventListener('DOMContentLoaded', checkMobileNavVisibility);
+</script> 
