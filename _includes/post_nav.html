@@ -11,6 +11,11 @@
       {% endfor %}
     </div>
     
+    <!-- All Posts Link -->
+    <div class="post-nav-all-posts">
+      <a href="/posts/" class="nav-all-posts-link">All Posts →</a>
+    </div>
+    
     <!-- Previous/Next Navigation -->
     {% if page.layout == 'post' %}
       <div class="post-nav-actions">
@@ -29,30 +34,5 @@
         {% endif %}
       </div>
     {% endif %}
-    
-    <!-- Toggle Button -->
-    <button class="post-nav-toggle" onclick="togglePostNav()">
-      <span class="toggle-icon">‹</span>
-    </button>
   </div>
-</nav>
-
-<script>
-function togglePostNav() {
-  const sidebar = document.getElementById('postNavSidebar');
-  const toggle = sidebar.querySelector('.toggle-icon');
-  
-  sidebar.classList.toggle('collapsed');
-  
-  if (sidebar.classList.contains('collapsed')) {
-    toggle.textContent = '›';
-  } else {
-    toggle.textContent = '‹';
-  }
-}
-
-// Initialize sidebar state
-document.addEventListener('DOMContentLoaded', function() {
-  // Any additional initialization can go here
-});
-</script> 
+</nav> 

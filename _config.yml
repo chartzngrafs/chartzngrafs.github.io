@@ -26,6 +26,7 @@ baseurl:     ""
 url:         "https://chartzngrafs.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
+ - posts.md
  - about.md
 
 # Google services
