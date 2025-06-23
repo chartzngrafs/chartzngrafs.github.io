@@ -20,13 +20,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="site-wrap">
     {% include header.html %}
 
-    <div class="post p2 p-responsive wrap" role="main">
+    <main class="post p2 p-responsive wrap" role="main">
       <div class="measure">
         {{ content }}
       </div>
-    </div>
+    </main>
   </div>
 
   {% include footer.html %}
+
+  <script>
+    // Mobile navigation toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (navToggle && navMenu) {
+        navToggle.addEventListener('click', function() {
+          navMenu.classList.toggle('nav-active');
+          navToggle.classList.toggle('nav-toggle-active');
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+          if (!navToggle.contains(event.target) && !navMenu.contains(event.target)) {
+            navMenu.classList.remove('nav-active');
+            navToggle.classList.remove('nav-toggle-active');
+          }
+        });
+        
+        // Close mobile menu when clicking on a link
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            navMenu.classList.remove('nav-active');
+            navToggle.classList.remove('nav-toggle-active');
+          });
+        });
+      }
+    });
+  </script>
 </body>
 </html>
