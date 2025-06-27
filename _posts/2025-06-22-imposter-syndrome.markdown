@@ -2,7 +2,7 @@
 layout: post
 title:  "I Built An App With AI, and I'm Not Sure I'm a 'Real' Developer"
 date:   2025-06-23 06:48:00 -0500
-categories: development cursorai python pyqt6 navidrome
+categories: dev
 ---
 
 I just finished building a project I'm incredibly proud of. It’s Pyper, a feature-rich, Linux-first desktop music player for Navidrome servers. It has a powerful search, an advanced internet radio streamer, a comprehensive theming system, and a slick, modern UI built with PyQt6. I used Cursor, an AI-powered code editor, for the entire process. I love what I built. I love the process of building it.

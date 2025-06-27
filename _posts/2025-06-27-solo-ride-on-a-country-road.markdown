@@ -2,7 +2,7 @@
 layout: post
 title:  "The Solo Ride on a Country Road"
 date:   2025-06-27 13:10:00 -0500
-categories: development cursorai impostersyndrome coding questioning
+categories: dev
 ---
 ## Fraud
 

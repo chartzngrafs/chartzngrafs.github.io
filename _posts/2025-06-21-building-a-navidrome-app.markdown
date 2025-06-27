@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Cursor AI to Build A Navidrome Player App"
 date:   2025-06-21 18:34:00 +0000
-categories: development cursorai vscode python
+categories: dev
 ---
 
 ## From Idea to App in 5 Days: Building a Navidrome Player with Cursor AI
