@@ -1,0 +1,63 @@
+/* Posts Archive Page Styling */
+.posts-archive {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-archive-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 0, 255, 0.1);
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}
+
+.post-archive-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-archive-date {
+  color: #00FFFF;
+  font-size: 0.875rem;
+  opacity: 0.8;
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+}
+
+.post-archive-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.post-archive-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.post-archive-link {
+  color: #72f1b8;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 2px #100c0f, 0 0 20px #257c5575, 0 0 30px #21272475;
+
+  &:hover {
+    color: #FF00FF;
+    text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+  }
+}
+
+.post-archive-summary {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
